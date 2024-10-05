@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB264018274C5636008023AB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CB264017274C5636008023AB /* GoogleService-Info.plist */; };
+		CB26401B274C5AE1008023AB /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = CB26401A274C5AE1008023AB /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		CB26401D274C5AE1008023AB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CB26401C274C5AE1008023AB /* FirebaseAuth */; };
+		CB26401F274C5AE1008023AB /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = CB26401E274C5AE1008023AB /* FirebaseDatabase */; };
+		CB973E5627612524009C16CE /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB973E5527612524009C16CE /* TabBar.swift */; };
+		CB9AC4B0275D73BD00001986 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9AC4AF275D73BD00001986 /* logo.png */; };
+		CB9AC4B2275D790C00001986 /* logo-gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CB9AC4B1275D790C00001986 /* logo-gif.gif */; };
+		CB9AC4B5275D7CC600001986 /* SwiftyGif in Frameworks */ = {isa = PBXBuildFile; productRef = CB9AC4B4275D7CC600001986 /* SwiftyGif */; };
+		CB9AC4B8275D8F3B00001986 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = CB9AC4B7275D8F3B00001986 /* SDWebImageSwiftUI */; };
+		CB9AC4BA275D948A00001986 /* logo1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9AC4B9275D948A00001986 /* logo1.png */; };
+		CB9AC4BC275DACAE00001986 /* logo-gif-24.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9AC4BB275DACAE00001986 /* logo-gif-24.png */; };
+		CB9AC4BE275DAE9500001986 /* logo-gif-1.png in Resources */ = {isa = PBXBuildFile; fileRef = CB9AC4BD275DAE9500001986 /* logo-gif-1.png */; };
+		CB9AC4C0275DAFCE00001986 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB9AC4BF275DAFCE00001986 /* Launch Screen.storyboard */; };
+		CB9B0DA5275E93AA00C867DC /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9B0DA4275E93AA00C867DC /* SplashScreen.swift */; };
+		CB9B0DA7275E94AF00C867DC /* Accueil.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9B0DA6275E94AF00C867DC /* Accueil.swift */; };
+		CB9B0DA9275E954500C867DC /* Commander.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9B0DA8275E954500C867DC /* Commander.swift */; };
+		CB9B0DAB275E955600C867DC /* Compte.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9B0DAA275E955600C867DC /* Compte.swift */; };
+		CB9B0DAF275E959C00C867DC /* Panier.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9B0DAE275E959C00C867DC /* Panier.swift */; };
+		CBABF70727442CD000DBBA10 /* herculeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABF70627442CD000DBBA10 /* herculeApp.swift */; };
+		CBABF70927442CD100DBBA10 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBABF70827442CD100DBBA10 /* ContentView.swift */; };
+		CBABF70B27442CD200DBBA10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBABF70A27442CD200DBBA10 /* Assets.xcassets */; };
+		CBABF70E27442CD200DBBA10 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CBABF70D27442CD200DBBA10 /* Preview Assets.xcassets */; };
+		CBDC8176275C395C003B738D /* Zeniq.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CBDC8175275C395C003B738D /* Zeniq.ttf */; };
+		CBDC8183275C3ABB003B738D /* Robota-NonCommercial.otf in Resources */ = {isa = PBXBuildFile; fileRef = CBDC817C275C3ABA003B738D /* Robota-NonCommercial.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CB264017274C5636008023AB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CB973E5527612524009C16CE /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		CB9AC4AF275D73BD00001986 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		CB9AC4B1275D790C00001986 /* logo-gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "logo-gif.gif"; sourceTree = "<group>"; };
+		CB9AC4B9275D948A00001986 /* logo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo1.png; sourceTree = "<group>"; };
+		CB9AC4BB275DACAE00001986 /* logo-gif-24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-gif-24.png"; sourceTree = "<group>"; };
+		CB9AC4BD275DAE9500001986 /* logo-gif-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-gif-1.png"; sourceTree = "<group>"; };
+		CB9AC4BF275DAFCE00001986 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		CB9B0DA4275E93AA00C867DC /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		CB9B0DA6275E94AF00C867DC /* Accueil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accueil.swift; sourceTree = "<group>"; };
+		CB9B0DA8275E954500C867DC /* Commander.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Commander.swift; sourceTree = "<group>"; };
+		CB9B0DAA275E955600C867DC /* Compte.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Compte.swift; sourceTree = "<group>"; };
+		CB9B0DAE275E959C00C867DC /* Panier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Panier.swift; sourceTree = "<group>"; };
+		CBABF70327442CD000DBBA10 /* Hercule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hercule.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBABF70627442CD000DBBA10 /* herculeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = herculeApp.swift; sourceTree = "<group>"; };
+		CBABF70827442CD100DBBA10 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CBABF70A27442CD200DBBA10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CBABF70D27442CD200DBBA10 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CBDC8175275C395C003B738D /* Zeniq.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zeniq.ttf; sourceTree = "<group>"; };
+		CBDC817C275C3ABA003B738D /* Robota-NonCommercial.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Robota-NonCommercial.otf"; sourceTree = "<group>"; };
+		CBDC818F275C48F4003B738D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBABF70027442CD000DBBA10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9AC4B8275D8F3B00001986 /* SDWebImageSwiftUI in Frameworks */,
+				CB26401F274C5AE1008023AB /* FirebaseDatabase in Frameworks */,
+				CB9AC4B5275D7CC600001986 /* SwiftyGif in Frameworks */,
+				CB26401B274C5AE1008023AB /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				CB26401D274C5AE1008023AB /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB9B0DA1275E927200C867DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB9B0DA4275E93AA00C867DC /* SplashScreen.swift */,
+				CB9B0DA6275E94AF00C867DC /* Accueil.swift */,
+				CB9B0DA8275E954500C867DC /* Commander.swift */,
+				CB9B0DAA275E955600C867DC /* Compte.swift */,
+				CB9B0DAE275E959C00C867DC /* Panier.swift */,
+				CB973E5527612524009C16CE /* TabBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CBABF6FA27442CD000DBBA10 = {
+			isa = PBXGroup;
+			children = (
+				CBABF70527442CD000DBBA10 /* Hercule */,
+				CBABF70427442CD000DBBA10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBABF70427442CD000DBBA10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBABF70327442CD000DBBA10 /* Hercule.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBABF70527442CD000DBBA10 /* Hercule */ = {
+			isa = PBXGroup;
+			children = (
+				CB9B0DA1275E927200C867DC /* View */,
+				CBDC818F275C48F4003B738D /* Info.plist */,
+				CBDC817C275C3ABA003B738D /* Robota-NonCommercial.otf */,
+				CBDC8175275C395C003B738D /* Zeniq.ttf */,
+				CBABF70627442CD000DBBA10 /* herculeApp.swift */,
+				CBABF70827442CD100DBBA10 /* ContentView.swift */,
+				CB9AC4BF275DAFCE00001986 /* Launch Screen.storyboard */,
+				CB264017274C5636008023AB /* GoogleService-Info.plist */,
+				CB9AC4B1275D790C00001986 /* logo-gif.gif */,
+				CB9AC4BB275DACAE00001986 /* logo-gif-24.png */,
+				CB9AC4B9275D948A00001986 /* logo1.png */,
+				CB9AC4AF275D73BD00001986 /* logo.png */,
+				CB9AC4BD275DAE9500001986 /* logo-gif-1.png */,
+				CBABF70A27442CD200DBBA10 /* Assets.xcassets */,
+				CBABF70C27442CD200DBBA10 /* Preview Content */,
+			);
+			path = Hercule;
+			sourceTree = "<group>";
+		};
+		CBABF70C27442CD200DBBA10 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CBABF70D27442CD200DBBA10 /* Preview Assets.xcassets */,
+			);
+			name = "Preview Content";
+			path = Preview;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBABF70227442CD000DBBA10 /* Hercule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBABF72727442CD300DBBA10 /* Build configuration list for PBXNativeTarget "Hercule" */;
+			buildPhases = (
+				CBABF6FF27442CD000DBBA10 /* Sources */,
+				CBABF70027442CD000DBBA10 /* Frameworks */,
+				CBABF70127442CD000DBBA10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hercule;
+			packageProductDependencies = (
+				CB26401A274C5AE1008023AB /* FirebaseAnalyticsWithoutAdIdSupport */,
+				CB26401C274C5AE1008023AB /* FirebaseAuth */,
+				CB26401E274C5AE1008023AB /* FirebaseDatabase */,
+				CB9AC4B4275D7CC600001986 /* SwiftyGif */,
+				CB9AC4B7275D8F3B00001986 /* SDWebImageSwiftUI */,
+			);
+			productName = VelAppart;
+			productReference = CBABF70327442CD000DBBA10 /* Hercule.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBABF6FB27442CD000DBBA10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					CBABF70227442CD000DBBA10 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = CBABF6FE27442CD000DBBA10 /* Build configuration list for PBXProject "Hercule" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CBABF6FA27442CD000DBBA10;
+			packageReferences = (
+				CB264019274C5AE1008023AB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				CB9AC4B3275D7CC500001986 /* XCRemoteSwiftPackageReference "SwiftyGif" */,
+				CB9AC4B6275D8F3B00001986 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
+			productRefGroup = CBABF70427442CD000DBBA10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBABF70227442CD000DBBA10 /* Hercule */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBABF70127442CD000DBBA10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9AC4B2275D790C00001986 /* logo-gif.gif in Resources */,
+				CB9AC4BE275DAE9500001986 /* logo-gif-1.png in Resources */,
+				CB9AC4B0275D73BD00001986 /* logo.png in Resources */,
+				CBABF70E27442CD200DBBA10 /* Preview Assets.xcassets in Resources */,
+				CB9AC4BA275D948A00001986 /* logo1.png in Resources */,
+				CB9AC4BC275DACAE00001986 /* logo-gif-24.png in Resources */,
+				CB9AC4C0275DAFCE00001986 /* Launch Screen.storyboard in Resources */,
+				CBDC8176275C395C003B738D /* Zeniq.ttf in Resources */,
+				CBABF70B27442CD200DBBA10 /* Assets.xcassets in Resources */,
+				CB264018274C5636008023AB /* GoogleService-Info.plist in Resources */,
+				CBDC8183275C3ABB003B738D /* Robota-NonCommercial.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBABF6FF27442CD000DBBA10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB9B0DA9275E954500C867DC /* Commander.swift in Sources */,
+				CB9B0DA5275E93AA00C867DC /* SplashScreen.swift in Sources */,
+				CB9B0DAF275E959C00C867DC /* Panier.swift in Sources */,
+				CB973E5627612524009C16CE /* TabBar.swift in Sources */,
+				CBABF70927442CD100DBBA10 /* ContentView.swift in Sources */,
+				CB9B0DAB275E955600C867DC /* Compte.swift in Sources */,
+				CB9B0DA7275E94AF00C867DC /* Accueil.swift in Sources */,
+				CBABF70727442CD000DBBA10 /* herculeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CBABF72527442CD300DBBA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CBABF72627442CD300DBBA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CBABF72827442CD300DBBA10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Hercule/Hercule.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEPLOYMENT_LOCATION = NO;
+				DEVELOPMENT_ASSET_PATHS = "Hercule/Preview\"";
+				DEVELOPMENT_TEAM = PJ6ABMJ2L7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hercule/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.randy.Hercule;
+				PRODUCT_NAME = Hercule;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CBABF72927442CD300DBBA10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Hercule/HerculeRelease.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEPLOYMENT_LOCATION = NO;
+				DEVELOPMENT_ASSET_PATHS = "Hercule/Preview\"";
+				DEVELOPMENT_TEAM = PJ6ABMJ2L7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Hercule/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.randy.Hercule;
+				PRODUCT_NAME = Hercule;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBABF6FE27442CD000DBBA10 /* Build configuration list for PBXProject "Hercule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBABF72527442CD300DBBA10 /* Debug */,
+				CBABF72627442CD300DBBA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBABF72727442CD300DBBA10 /* Build configuration list for PBXNativeTarget "Hercule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBABF72827442CD300DBBA10 /* Debug */,
+				CBABF72927442CD300DBBA10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CB264019274C5AE1008023AB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+		CB9AC4B3275D7CC500001986 /* XCRemoteSwiftPackageReference "SwiftyGif" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kirualex/SwiftyGif.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		CB9AC4B6275D8F3B00001986 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CB26401A274C5AE1008023AB /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB264019274C5AE1008023AB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		CB26401C274C5AE1008023AB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB264019274C5AE1008023AB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CB26401E274C5AE1008023AB /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB264019274C5AE1008023AB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		CB9AC4B4275D7CC600001986 /* SwiftyGif */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB9AC4B3275D7CC500001986 /* XCRemoteSwiftPackageReference "SwiftyGif" */;
+			productName = SwiftyGif;
+		};
+		CB9AC4B7275D8F3B00001986 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CB9AC4B6275D8F3B00001986 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CBABF6FB27442CD000DBBA10 /* Project object */;
+}
